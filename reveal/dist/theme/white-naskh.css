@@ -17,12 +17,12 @@
   *********************************************/
  :root {
    --r-background-color: #fff;
-   --r-main-font: NotoNaskh,'NotoNaskh',tahoma;
+   --r-main-font: Noto Nashkh Arabic,'Noto Nashkh Arabic',tahoma;
    --r-main-font-size: 42px;
    --r-main-color: #222;
    --r-block-margin: 20px;
    --r-heading-margin: 0 0 20px 0;
-   --r-heading-font: NotoNaskh,'NotoNaskh',tahoma;
+   --r-heading-font: Noto Nashkh Arabic,'Noto Nashkh Arabic',tahoma;
    --r-heading-color: #222;
    --r-heading-line-height: 1.2;
    --r-heading-letter-spacing: normal;
