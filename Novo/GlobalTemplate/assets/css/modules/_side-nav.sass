@@ -14,7 +14,7 @@
   & > li
     position: relative
     top: -5px
-    color: $white
+    color: $lightgray
     font-size: 6px
     cursor: pointer
 
@@ -22,11 +22,11 @@
       position: relative
       top: 3px
       left: 10px
-      color: $white
+      color: $lightgray
       font-size: 14px
-      font-weight: 300
-      opacity: 0
-      visibility: hidden
+      font-weight: Bolder
+      //opacity: 0
+      //visibility: hidden
 
     &::before
       position: absolute
@@ -36,26 +36,27 @@
       font-size: 14px
       font-weight: 300
 
-  li:nth-child(1)::before
-    content: "01"
+  //li:nth-child(1)::before
+  //  content: "01"
 
-  li:nth-child(2)::before
-    content: "02"
+  //li:nth-child(2)::before
+  //  content: "02"
 
-  li:nth-child(3)::before
+  //li:nth-child(3)::before
     content: "03"
 
-  li:nth-child(4)::before
-    content: "04"
+  //li:nth-child(4)::before
+  //  content: "04"
 
-  li:nth-child(5)::before
-    content: "05"
+  //li:nth-child(5)::before
+  //  content: "05" 
 
   li.is-active
     color: $highlight
     transition: color .4s ease-in-out
 
     span
+      color: $highlight
       opacity: 1
       visibility: visible
       transition: opacity .4s ease-in-out
