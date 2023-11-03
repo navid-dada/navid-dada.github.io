@@ -29,12 +29,19 @@
       &.test
       color: blue
 
-
     div
-      &.content
-        background-image: url("assets/img/01.png")
+      &.greeting
+        background-image: url("../img/01.png")
         background-size: contain
+        background-repeat: no-repeat no-repeat
 
+      div
+        div 
+          div
+            &.brife
+              flex: 0.5
+              flex-direction: row
+              padding-bottom: 44%
 
     button
       position: relative
@@ -100,13 +107,19 @@
   .intro
   
     &--banner
-      height: 380px
+      height: 80%
 
       h1
         font-size: 55px
       
       h2 
         color: red
+      
+    div
+      &.greeting
+        background-image: url("../img/01.png")
+        background-size: contain
+        background-repeat: no-repeat no-repeat
 
     &--options
 
@@ -129,6 +142,12 @@
       img
         width: 330px
 
+    div
+      &.greeting
+        background-image: url("../img/01.png")
+        background-size: contain
+        background-repeat: no-repeat no-repeat
+
     &--options
       display: block
 
@@ -145,7 +164,13 @@
   .intro
 
     &--banner
-      height: 360px
+      height: 80%
+
+    div
+      &.greeting
+        background-image: url("../img/01.png")
+        background-size: contain
+        background-repeat: no-repeat no-repeat
 
       h1
         font-size: 55px
@@ -163,6 +188,18 @@
       &::before,
       &::after
         display: none
+
+    div
+      &.greeting
+        background-image: url("../img/01.png")
+        background-size: contain
+        background-repeat: no-repeat no-repeat
+      
+      div > div > div
+        .brife
+          flex: 0.5
+          flex-direction: row
+          padding-bottom: 44%
 
       h1
         margin-top: 0
