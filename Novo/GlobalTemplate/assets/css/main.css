@@ -473,7 +473,8 @@ body {
     .intro--banner div.greeting {
       background-image: url("../img/01.png");
       background-size: contain;
-      background-repeat: no-repeat no-repeat; }
+      background-repeat: no-repeat no-repeat;
+      background-position: bottom; }
     .intro--banner div div div div.brife {
       flex: 0.5;
       flex-direction: row;
@@ -503,10 +504,6 @@ body {
         left: 5px;
         width: 15px;
         fill: #fff; }
-    .intro--banner img {
-      position: absolute;
-      bottom: 21px;
-      right: -12px; }
   .intro--options {
     display: flex;
     justify-content: space-between;
@@ -536,7 +533,8 @@ body {
   .intro div.greeting {
     background-image: url("../img/01.png");
     background-size: contain;
-    background-repeat: no-repeat no-repeat; }
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom; }
   .intro--options > a {
     margin-right: 30px; }
     .intro--options > a:last-child {
@@ -551,7 +549,8 @@ body {
   .intro div.greeting {
     background-image: url("../img/01.png");
     background-size: contain;
-    background-repeat: no-repeat no-repeat; }
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom; }
   .intro--options {
     display: block; }
     .intro--options > a {
@@ -566,11 +565,10 @@ body {
   .intro div.greeting {
     background-image: url("../img/01.png");
     background-size: contain;
-    background-repeat: no-repeat no-repeat; }
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom; }
   .intro div h1 {
-    font-size: 55px; }
-  .intro div img {
-    display: none; } }
+    font-size: 55px; } }
 @media (max-width: 600px) and (max-height: 750px) {
   .intro--banner {
     height: auto; }
@@ -579,7 +577,8 @@ body {
   .intro div.greeting {
     background-image: url("../img/01.png");
     background-size: contain;
-    background-repeat: no-repeat no-repeat; }
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom; }
   .intro div div > div > div .brife {
     flex: 0.5;
     flex-direction: row;
@@ -609,6 +608,22 @@ body {
   .work div div div div.brife {
     flex: 0.5;
     flex-direction: row; }
+    .work div div div div.brife p.feature-pink {
+      background-color: lightpink;
+      padding: 1% 2%;
+      width: 50%; }
+    .work div div div div.brife p.feature-blue {
+      background-color: lightblue;
+      padding: 1% 2%;
+      width: 50%; }
+    .work div div div div.brife p.feature-green {
+      background-color: lightgreen;
+      padding: 1% 2%;
+      width: 50%; }
+    .work div div div div.brife p.feature-yellow {
+      background-color: lightgoldenrodyellow;
+      padding: 1% 2%;
+      width: 50%; }
   .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
