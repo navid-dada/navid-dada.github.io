@@ -762,48 +762,18 @@ body {
   .about--banner {
     position: relative;
     height: 475px; }
-    .about--banner::before {
-      content: "";
-      position: absolute;
-      top: 20px;
-      left: 200px;
-      transform: rotate(-25deg);
-      border: 5px solid #031b59;
-      border-right-color: transparent;
-      border-bottom-color: transparent; }
-    .about--banner::after {
-      content: "";
-      position: absolute;
-      top: 75px;
-      left: 400px;
-      transform: rotate(45deg);
-      width: 10px;
-      height: 10px;
-      background-color: #031b59; }
+    .about--banner img.time-sheet {
+      width: 95%; }
+    .about--banner img.cal-icon {
+      width: 75%;
+      padding: 5% 0 0 5%; }
     .about--banner h2 {
       position: relative;
       margin-top: 35px;
-      font-size: 68px;
+      font-size: 55px;
       font-weight: 900;
       line-height: 1;
       z-index: 1; }
-      .about--banner h2::before {
-        content: "";
-        position: absolute;
-        top: 60px;
-        left: 268px;
-        width: 30px;
-        height: 30px;
-        background-color: #031b59;
-        border-radius: 50%; }
-      .about--banner h2::after {
-        content: "";
-        position: absolute;
-        top: 255px;
-        left: 255px;
-        width: 10px;
-        height: 10px;
-        background-color: #031b59; }
     .about--banner a {
       padding: 5px 17px 5px 0;
       text-decoration: none;
@@ -819,10 +789,6 @@ body {
         width: 15px;
         fill: #fff;
         transition: left 0.2s ease-in-out; }
-    .about--banner img {
-      position: absolute;
-      bottom: -90px;
-      right: -12px; }
   .about--options {
     display: flex;
     max-width: 600px;
