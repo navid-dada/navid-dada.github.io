@@ -607,23 +607,28 @@ body {
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
-    flex-direction: row; }
+    flex-direction: row;
+    font-size: 14; }
     .work div div div div.brife p.feature-pink {
       background-color: lightpink;
       padding: 1% 2%;
-      width: 50%; }
+      width: 50%;
+      font-size: 12; }
     .work div div div div.brife p.feature-blue {
       background-color: lightblue;
       padding: 1% 2%;
-      width: 50%; }
+      width: 50%;
+      font-size: 12; }
     .work div div div div.brife p.feature-green {
       background-color: lightgreen;
       padding: 1% 2%;
-      width: 50%; }
+      width: 50%;
+      font-size: 12; }
     .work div div div div.brife p.feature-yellow {
       background-color: lightgoldenrodyellow;
       padding: 1% 2%;
-      width: 50%; }
+      width: 50%;
+      font-size: 12; }
   .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
@@ -717,7 +722,27 @@ body {
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
-    flex-direction: row; }
+    flex-direction: row;
+    font-size: 12;
+    background-color: lightpink;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-blue {
+    background-color: lightblue;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-green {
+    background-color: lightgreen;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-yellow {
+    background-color: lightgoldenrodyellow;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
   .work--lockup .slider--item-image {
     width: 120px;
     height: 120px; }
@@ -736,7 +761,27 @@ body {
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
-    flex-direction: row; }
+    flex-direction: row;
+    font-size: 12;
+    background-color: lightpink;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-blue {
+    background-color: lightblue;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-green {
+    background-color: lightgreen;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-yellow {
+    background-color: lightgoldenrodyellow;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
   .work--lockup .slider {
     width: 75%; }
     .work--lockup .slider--item-image {
@@ -757,7 +802,28 @@ body {
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
-    flex-direction: row; }
+    flex-direction: row;
+    font-size: 12; }
+  .work div div div div p.feature-pink {
+    background-color: lightpink;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-blue {
+    background-color: lightblue;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-green {
+    background-color: lightgreen;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
+  .work div div div div p.feature-yellow {
+    background-color: lightgoldenrodyellow;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 10; }
   .work--lockup .slider {
     width: auto; }
     .work--lockup .slider--item-left, .work--lockup .slider--item-right {
