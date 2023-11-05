@@ -934,15 +934,13 @@ body {
       left: 310px; }
     .about--banner h2 {
       margin-top: 0;
-      font-size: 55px; }
+      font-size: 35px; }
       .about--banner h2::before {
         top: 43px;
         left: 214px; }
       .about--banner h2::after {
         top: 205px;
         left: 205px; }
-    .about--banner img {
-      display: none; }
   .about--options {
     display: none; } }
 .contact {
