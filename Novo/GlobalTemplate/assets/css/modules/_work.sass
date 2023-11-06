@@ -7,7 +7,7 @@
   flex-direction: column
   justify-content: center
   margin: 0 auto
-
+    
   @media (max-width: 1180px)
     max-width: 100%
   
@@ -26,6 +26,8 @@
             flex: 0.5
             flex-direction: row
             font-size: 14pt
+            font-weight: bold
+            color: $primary-dark-blue
 
             p.feature-pink
               background-color: lightpink
@@ -51,9 +53,14 @@
               width: 50%
               font-size: 12pt
   h2
-    margin: 0 0 20px 0
-    font-size: 30px
-    text-align: center
+    color: $secondry-blue
+    position: relative
+    font-size: 30pt
+    font-weight: 900
+    line-height: 1
+
+    span
+      color: $primary-dark-blue
 
   &--lockup
     position: relative
