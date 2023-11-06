@@ -1043,8 +1043,10 @@ body {
   justify-content: center;
   margin: 0 auto; }
   .hire h2 {
-    margin: 0 0 20px 0;
     font-size: 55px;
+    font-weight: 900;
+    line-height: 0;
+    z-index: 1;
     color: #1d97de; }
     .hire h2 span {
       color: #001965; }
