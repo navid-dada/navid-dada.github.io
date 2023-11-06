@@ -456,7 +456,7 @@ body {
   margin: 0 auto; }
   .intro h2 {
     position: relative;
-    font-size: 30pt;
+    font-size: 33pt;
     font-weight: 900;
     line-height: 1;
     z-index: 1;
@@ -597,7 +597,7 @@ body {
   .work h2 {
     color: #005bd2;
     position: relative;
-    font-size: 30pt;
+    font-size: 33pt;
     font-weight: 900;
     line-height: 1; }
     .work h2 span {
@@ -846,7 +846,7 @@ body {
   .about h2 {
     position: relative;
     color: #2a918b;
-    font-size: 55px;
+    font-size: 33pt;
     font-weight: 900;
     line-height: 0;
     z-index: 1; }
@@ -978,7 +978,7 @@ body {
   margin: 0 auto; }
   .contact h2 {
     color: #939aa7;
-    font-size: 55px;
+    font-size: 33pt;
     font-weight: 900;
     line-height: 0;
     z-index: 1; }
@@ -1043,10 +1043,9 @@ body {
   justify-content: center;
   margin: 0 auto; }
   .hire h2 {
-    font-size: 55px;
+    font-size: 33pt;
     font-weight: 900;
     line-height: 0;
-    z-index: 1;
     color: #1d97de; }
     .hire h2 span {
       color: #001965; }
