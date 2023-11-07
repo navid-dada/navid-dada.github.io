@@ -455,7 +455,7 @@ body {
   margin: 0 auto; }
   .intro h2 {
     position: relative;
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 900;
     line-height: 1;
     z-index: 1;
@@ -597,7 +597,7 @@ body {
   .work h2 {
     color: #005bd2;
     position: relative;
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 900;
     line-height: 1;
     margin: 0; }
@@ -846,7 +846,7 @@ body {
   .about h2 {
     position: relative;
     color: #2a918b;
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 900;
     line-height: 0;
     z-index: 1; }
@@ -951,7 +951,7 @@ body {
   .contact h2 {
     position: relative;
     color: #2a918b;
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 900;
     line-height: 0;
     z-index: 1; }
@@ -1015,7 +1015,7 @@ body {
   flex-direction: column;
   margin: 0 auto; }
   .hire h2 {
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 900;
     line-height: 0;
     color: #1d97de; }
