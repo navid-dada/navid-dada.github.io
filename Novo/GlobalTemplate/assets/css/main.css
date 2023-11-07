@@ -611,7 +611,7 @@ body {
     font-weight: bolder;
     font-size: 16pt; }
   .work div.summary {
-    background-image: url("../img/04.png");
+    background-color: #d9e6f8;
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
@@ -724,7 +724,7 @@ body {
     font-weight: bolder;
     font-size: 16pt; }
   .work div.summary {
-    background-image: url("../img/04.png");
+    background-color: #d9e6f8;
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
@@ -764,7 +764,7 @@ body {
     font-weight: bolder;
     font-size: 16pt; }
   .work div.summary {
-    background-image: url("../img/04.png");
+    background-color: #d9e6f8;
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
@@ -806,7 +806,7 @@ body {
     font-weight: bolder;
     font-size: 16pt; }
   .work div.summary {
-    background-image: url("../img/04.png");
+    background-color: #d9e6f8;
     background-size: contain; }
   .work div div div div.brife {
     flex: 0.5;
