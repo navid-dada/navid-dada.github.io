@@ -857,7 +857,9 @@ body {
     .about h2 p {
       color: #001965;
       font-size: 12pt;
-      font-weight: bold; }
+      font-weight: bold;
+      margin: 25px 0 25px 0;
+      line-height: 1; }
   @media (max-width: 1180px) {
     .about {
       max-width: 100%; } }
@@ -965,7 +967,9 @@ body {
   .contact p {
     color: #001965;
     font-size: 12pt;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+    line-height: 1; }
   .contact--lockup {
     position: relative; }
     @media (max-width: 1180px) {
@@ -1029,7 +1033,9 @@ body {
   .hire p {
     color: #001965;
     font-size: 12pt;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+    line-height: 1; }
   @media (max-width: 1180px) {
     .hire {
       max-width: 100%; } }
