@@ -456,7 +456,7 @@ body {
   margin: 0 auto; }
   .intro h2 {
     position: relative;
-    font-size: 25pt;
+    font-size: 20pt;
     font-weight: 900;
     line-height: 1;
     z-index: 1;
@@ -472,7 +472,7 @@ body {
   .intro--banner {
     position: relative; }
     .intro--banner div.greeting {
-      background-image: url("../img/01.png");
+      background-image: url("../img/03.png");
       background-size: contain;
       background-repeat: no-repeat no-repeat;
       background-position: bottom; }
@@ -530,7 +530,7 @@ body {
     .intro--banner h1 {
       font-size: 55px; }
   .intro div.greeting {
-    background-image: url("../img/01.png");
+    background-image: url("../img/03.png");
     background-size: contain;
     background-repeat: no-repeat no-repeat;
     background-position: bottom; }
@@ -546,7 +546,7 @@ body {
     .intro--banner img {
       width: 330px; }
   .intro div.greeting {
-    background-image: url("../img/01.png");
+    background-image: url("../img/03.png");
     background-size: contain;
     background-repeat: no-repeat no-repeat;
     background-position: bottom; }
@@ -562,7 +562,7 @@ body {
   .intro--banner {
     height: 80%; }
   .intro div.greeting {
-    background-image: url("../img/01.png");
+    background-image: url("../img/03.png");
     background-size: contain;
     background-repeat: no-repeat no-repeat;
     background-position: bottom; }
@@ -574,7 +574,7 @@ body {
     .intro--banner::before, .intro--banner::after {
       display: none; }
   .intro div.greeting {
-    background-image: url("../img/01.png");
+    background-image: url("../img/03.png");
     background-size: contain;
     background-repeat: no-repeat no-repeat;
     background-position: bottom; }
