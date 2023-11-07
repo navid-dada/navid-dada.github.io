@@ -354,7 +354,8 @@ body {
       text-transform: uppercase; }
     .header--logo img {
       width: 90px;
-      height: 65px; }
+      height: 65px;
+      padding: 5% 0; }
   .header--nav-toggle {
     display: flex;
     width: 50px;
